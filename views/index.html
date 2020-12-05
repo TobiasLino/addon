@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-</head>
-<body style="background: white;">
-<h1>Hello World!</h1>
-<p>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-</p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello World!</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    </head>
+    <body style="background: white;">
+        <h1>Hello World!</h1>
+        <p>
+            We are using node <script>document.write(process.versions.node)</script>,
+            Chrome <script>document.write(process.versions.chrome)</script>,
+            and Electron <script>document.write(process.versions.electron)</script>.
+
+            Calc = <script>document.write(add(2.2))</script>
+        </p>
+        <button id="add" onclick="addNum"><span>Add</span></button>
+        <div id="calc"></div>
+    </body>
+    <script src="scripts/index.js"> addNum()</script>
 </html>
