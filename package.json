@@ -1,0 +1,25 @@
+{
+  "name": "addon",
+  "version": "1.0.0",
+  "description": "A native nodejs c++ addon desktop app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasLino/addon.git"
+  },
+  "author": "tobias lino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TobiasLino/addon/issues"
+  },
+  "homepage": "https://github.com/TobiasLino/addon#readme",
+  "dependencies": {
+    "node-addon-api": "^3.0.2"
+  },
+  "devDependencies": {
+    "cmake-js": "^6.1.0"
+  }
+}
