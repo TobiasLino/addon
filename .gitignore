@@ -108,3 +108,5 @@ dist
 build/
 
 build/Release/
+
+cmake-build-debug/
